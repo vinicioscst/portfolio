@@ -20,6 +20,9 @@ const config: Config = {
         "secondary-color": "#C8B8FF",
         "accent-color": "#B8C0FF",
       },
+      screens: {
+        xs: "500px",
+      },
     },
   },
   plugins: [],
