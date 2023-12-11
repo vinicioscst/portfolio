@@ -24,7 +24,7 @@ const ProjectCard = ({ project }: IProjectCardProps) => {
         <p className="underline underline-offset-4">Tecnologias:</p>
         <div className="flex flex-wrap gap-3">
           {project.techs.map((tech) => (
-            <span className="bg-[#101318] text-accent-color py-1 px-2 rounded-lg select-none cursor-pointer">
+            <span key={tech} className="bg-[#101318] text-accent-color py-1 px-2 rounded-lg select-none cursor-pointer">
               {tech}
             </span>
           ))}
