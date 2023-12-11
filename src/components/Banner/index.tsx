@@ -19,7 +19,7 @@ const Banner = () => {
         src={CodingFigure}
         alt="Ilustração de um notebook com luzes em tons roxo e rosa em cima dela. Na sua tela, barras de cores branca, rosa choque e laranja para simular códigos de programação."
         width={100}
-        className="flex-grow basis-80 max-w-md"
+        className="flex-grow basis-80 max-w-md animate-soft-bounce"
         draggable={false}
       />
     </section>

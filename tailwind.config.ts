@@ -23,6 +23,21 @@ const config: Config = {
       screens: {
         xs: "500px",
       },
+      animation: {
+        'soft-bounce': 'soft-bounce 1s infinite'
+      },
+      keyframes: {
+        "soft-bounce": {
+          "0%, 100%": {
+            transform: "translateY(-3%)",
+            "animation-timing-function": "cubic-bezier(0.8,0,1,1)",
+          },
+          "50%": {
+            transform: "none",
+            "animation-timing-function": "cubic-bezier(0,0,0.2,1)",
+          },
+        },
+      },
     },
   },
   plugins: [],
