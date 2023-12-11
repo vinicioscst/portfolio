@@ -33,7 +33,7 @@ const ProjectCard = ({ project }: IProjectCardProps) => {
       <p className="text-center md:text-left">{project.description}</p>
       <div className="flex gap-2 justify-center md:justify-start">
         {project.repository !== undefined && (
-          <a href={project.repository}>
+          <a href={project.repository} target="_blank">
             <button className="py-2 px-4 border border-primary-color/90 bg-primary-color/90 rounded-lg hover:opacity-75 hover:-translate-y-1 cursor-pointer transition-all">
               <Image
                 src={GithubIcon}
@@ -45,7 +45,7 @@ const ProjectCard = ({ project }: IProjectCardProps) => {
           </a>
         )}
         {project.deploy !== undefined && (
-          <a href={project.deploy}>
+          <a href={project.deploy} target="_blank">
             <button className="py-2 px-4 border border-primary-color/90 bg-primary-color/90 rounded-lg hover:opacity-75 hover:-translate-y-1 cursor-pointer transition-all">
               <Image
                 src={LinkIcon}
