@@ -12,7 +12,8 @@
 
       .cls-3 {
         fill: #020230;
-        opacity: .6;
+        opacity: .3;
+        filter: blur(50px);
       }
 
       .cls-4, .cls-5 {
