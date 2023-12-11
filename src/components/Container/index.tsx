@@ -3,7 +3,7 @@ interface IContainerProps {
 }
 
 const Container = ({children}: IContainerProps) => {
-  return <div className="max-w-screen-xl px-5 mx-auto">{children}</div>;
+  return <div className="max-w-screen-lg px-5 mx-auto">{children}</div>;
 };
 
 export default Container;
