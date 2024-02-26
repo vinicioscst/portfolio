@@ -1,12 +1,12 @@
-import Image from "next/image";
-import CSSIcon from "../../../public/css-icon.svg";
-import HTMLIcon from "../../../public/html-icon.svg";
-import JSIcon from "../../../public/javascript-icon.svg";
-import NextJSIcon from "../../../public/nextjs-icon.svg";
-import NodeJSIcon from "../../../public/nodejs-icon.svg";
-import PythonIcon from "../../../public/python-icon.svg";
-import ReactIcon from "../../../public/react-icon.svg";
-import TailwindIcon from "../../../public/tailwind-icon.svg";
+import Image from 'next/image'
+import CSSIcon from '../../../public/css-icon.svg'
+import HTMLIcon from '../../../public/html-icon.svg'
+import JSIcon from '../../../public/javascript-icon.svg'
+import NextJSIcon from '../../../public/nextjs-icon.svg'
+import NodeJSIcon from '../../../public/nodejs-icon.svg'
+import PythonIcon from '../../../public/python-icon.svg'
+import ReactIcon from '../../../public/react-icon.svg'
+import TailwindIcon from '../../../public/tailwind-icon.svg'
 
 const TechList = () => {
   return (
@@ -78,7 +78,7 @@ const TechList = () => {
         />
       </ul>
     </section>
-  );
-};
+  )
+}
 
-export default TechList;
+export default TechList

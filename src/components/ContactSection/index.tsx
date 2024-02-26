@@ -1,6 +1,6 @@
-import Image from "next/image";
-import LinkedinIcon from "../../../public/linkedin-icon.svg";
-import EmailIcon from "../../../public/email-icon.svg";
+import Image from 'next/image'
+import LinkedinIcon from '../../../public/linkedin-icon.svg'
+import EmailIcon from '../../../public/email-icon.svg'
 
 const ContactSection = () => {
   return (
@@ -39,7 +39,7 @@ const ContactSection = () => {
         </a>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default ContactSection;
+export default ContactSection

@@ -1,10 +1,10 @@
-import AboutMe from "@/components/AboutMe";
-import Banner from "@/components/Banner";
-import ContactSection from "@/components/ContactSection";
-import Container from "@/components/Container";
-import Header from "@/components/Header";
-import ProjectSection from "@/components/ProjectSection";
-import TechList from "@/components/TechsList";
+import AboutMe from '@/components/AboutMe'
+import Banner from '@/components/Banner'
+import ContactSection from '@/components/ContactSection'
+import Container from '@/components/Container'
+import Header from '@/components/Header'
+import ProjectSection from '@/components/ProjectSection'
+import TechList from '@/components/TechsList'
 
 export default function Home() {
   return (
@@ -22,5 +22,5 @@ export default function Home() {
       </Container>
       <div className="h-1 bg-gradient-to-l from-primary-color to-accent-color"></div>
     </>
-  );
+  )
 }
