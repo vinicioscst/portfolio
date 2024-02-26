@@ -6,7 +6,7 @@ const Banner = () => {
   return (
     <section className="w-full flex items-center justify-center md:justify-between flex-wrap-reverse gap-12">
       <div className="flex-grow basis-80 flex flex-col gap-5">
-        <h1 className="font-black text-3xl xs:text-5xl text-center md:text-left bg-gradient-to-r from-primary-color to-accent-color text-transparent bg-clip-text">Desenvolvedor Front-End</h1>
+        <h1 className="font-black text-3xl xs:text-5xl text-center md:text-left bg-gradient-to-r from-primary-color to-accent-color text-transparent bg-clip-text">Desenvolvedor Web</h1>
         <p className="text-base xs:text-xl text-center md:text-left tracking-wide">
           Olá! Me chamo <span className="font-black">Vinícios Costa</span> e sou um <span className="underline underline-offset-4">solucionador de problemas</span> apaixonado por <span className="underline underline-offset-4">tecnologia</span>.
         </p>
