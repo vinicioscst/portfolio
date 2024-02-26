@@ -1,17 +1,17 @@
-import Image from "next/image";
-import GithubIcon from "../../../public/github-icon.svg";
-import LinkIcon from "../../../public/link-icon.svg";
+import Image from 'next/image'
+import GithubIcon from '../../../public/github-icon.svg'
+import LinkIcon from '../../../public/link-icon.svg'
 
 interface IProject {
-  title: string;
-  description: string;
-  techs: string[];
-  repository?: string;
-  deploy?: string;
+  title: string
+  description: string
+  techs: string[]
+  repository?: string
+  deploy?: string
 }
 
 interface IProjectCardProps {
-  project: IProject;
+  project: IProject
 }
 
 const ProjectCard = ({ project }: IProjectCardProps) => {
@@ -24,7 +24,10 @@ const ProjectCard = ({ project }: IProjectCardProps) => {
         <p className="underline underline-offset-4">Tecnologias:</p>
         <div className="flex flex-wrap justify-center md:justify-normal gap-3">
           {project.techs.map((tech) => (
-            <span key={tech} className="bg-[#101318] text-accent-color py-1 px-2 rounded-lg select-none cursor-pointer">
+            <span
+              key={tech}
+              className="bg-[#101318] text-accent-color py-1 px-2 rounded-lg select-none"
+            >
               {tech}
             </span>
           ))}
@@ -58,7 +61,7 @@ const ProjectCard = ({ project }: IProjectCardProps) => {
         )}
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default ProjectCard;
+export default ProjectCard
