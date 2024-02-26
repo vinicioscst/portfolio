@@ -3,33 +3,32 @@ import ProjectCard from "../ProjectCard";
 const ProjectSection = () => {
   const projects = [
     {
-      title: "Kenzie Hub",
-      description: "A Kenzie Hub é uma aplicação do tipo CRUD onde, além de incluir um sistema de cadastro e login, é possível listar as tecnologias que os alunos mais utilizam e o nível de conhecimento em cada uma delas.",
-      techs: ["Javascript", "React", "Styled-Components"],
-      repository: "https://github.com/vinicioscst/kenzie-kenziehub",
-      deploy: "https://kenziehub-vinicioscst.vercel.app",
+      title: "Orange Portfólio - Front End",
+      description: "O Orange Portifólio é uma plataforma única que reúne os melhores talentos de desenvolvimento e design em um só lugar. O  projeto foi desenvolvido durante a participação no hackathon da Orange Juice!",
+      techs: ["Javascript", "React", "Vite", "Material UI"],
+      repository: "https://github.com/vinicioscst/orange-portfolio-frontend-squad24",
+      deploy: "https://orange-portfolio-frontend-squad24.vercel.app/",
+    },
+    {
+      title: "Orange Portfólio - Back End",
+      description: "A API do Orange Portfólio, com CRUD para os usuários e projetos, além de rota para upload de arquivos. O  projeto foi desenvolvido durante a participação no hackathon da Orange Juice! ",
+      techs: ["Javascript", "Node", "Express"],
+      repository: "https://github.com/vinicioscst/orange-portfolio-backend-squad24"
     },
     {
       title: "Weather App",
       description: "Projeto pessoal de previsão do tempo. A aplicação possui um autocomplete ao digitar o nome da cidade e, além de trazer as informações do local escolhido, é possível escolher a exibição da temperatura entre Celsius e Fahrenheit.",
-      techs: ["Javascript", "React", "Tailwind", "Next.js"],
+      techs: ["Javascript", "React", "Next.js", "Tailwind"],
       repository: "https://github.com/vinicioscst/hackathon_weather-app",
       deploy: "https://hackathon-weather-app.vercel.app",
     },
     {
-      title: "Nu Kenzie",
-      description: "A Nu Kenzie é uma aplicação para controle financeiro, possibilitando inserir entradas e despesas, com seus respectivos valores e descrições.",
-      techs: ["Javascript", "React", "Styled-Components"],
-      repository: "https://github.com/vinicioscst/kenzie-nukenzie",
-      deploy: "https://nukenzie-vinicioscst.vercel.app/",
-    },
-    {
-      title: "Git Search",
-      description: "Uma simples aplicação para consultar perfis do Github, listando o nome do usuário, foto e seus repositórios disponibilizados publicamente.",
-      techs: ["HTML", "CSS", "Javascript"],
-      repository: "https://github.com/vinicioscst/kenzie-gitsearch",
-      deploy: "https://vinicioscst.github.io/kenzie-gitsearch/",
-    },
+      title: "Kenzie Hub",
+      description: "A Kenzie Hub é uma aplicação do tipo CRUD onde, além de incluir um sistema de cadastro e login, é possível listar as tecnologias que os alunos mais utilizam e o nível de conhecimento em cada uma delas.",
+      techs: ["Javascript", "React", "Vite", "Styled-Components"],
+      repository: "https://github.com/vinicioscst/kenzie-kenziehub",
+      deploy: "https://kenziehub-vinicioscst.vercel.app",
+    }
   ];
 
   return (
