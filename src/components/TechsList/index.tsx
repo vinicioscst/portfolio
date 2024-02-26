@@ -18,7 +18,7 @@ const TechList = () => {
           title="HTML"
           width={35}
           height={35}
-          className="opacity-75 hover:opacity-100 cursor-pointer transition-opacity"
+          className="opacity-75 hover:opacity-100 transition-opacity"
         />
         <Image
           src={CSSIcon}
@@ -26,7 +26,7 @@ const TechList = () => {
           title="CSS"
           width={35}
           height={35}
-          className="opacity-75 hover:opacity-100 cursor-pointer transition-opacity"
+          className="opacity-75 hover:opacity-100 transition-opacity"
         />
         <Image
           src={TailwindIcon}
@@ -34,7 +34,7 @@ const TechList = () => {
           title="Tailwind"
           width={35}
           height={35}
-          className="opacity-75 hover:opacity-100 cursor-pointer transition-opacity"
+          className="opacity-75 hover:opacity-100 transition-opacity"
         />
         <Image
           src={JSIcon}
@@ -42,7 +42,7 @@ const TechList = () => {
           title="Javascript"
           width={35}
           height={35}
-          className="opacity-75 hover:opacity-100 cursor-pointer transition-opacity"
+          className="opacity-75 hover:opacity-100 transition-opacity"
         />
         <Image
           src={ReactIcon}
@@ -50,7 +50,7 @@ const TechList = () => {
           title="React"
           width={35}
           height={35}
-          className="opacity-75 hover:opacity-100 cursor-pointer transition-opacity"
+          className="opacity-75 hover:opacity-100 transition-opacity"
         />
         <Image
           src={NextJSIcon}
@@ -58,7 +58,7 @@ const TechList = () => {
           title="NextJS"
           width={35}
           height={35}
-          className="opacity-75 hover:opacity-100 cursor-pointer transition-opacity"
+          className="opacity-75 hover:opacity-100 transition-opacity"
         />
         <Image
           src={NodeJSIcon}
@@ -66,7 +66,7 @@ const TechList = () => {
           title="NodeJS"
           width={35}
           height={35}
-          className="opacity-75 hover:opacity-100 cursor-pointer transition-opacity"
+          className="opacity-75 hover:opacity-100 transition-opacity"
         />
         <Image
           src={PythonIcon}
@@ -74,7 +74,7 @@ const TechList = () => {
           title="Python"
           width={35}
           height={35}
-          className="opacity-75 hover:opacity-100 cursor-pointer transition-opacity"
+          className="opacity-75 hover:opacity-100 transition-opacity"
         />
       </ul>
     </section>
