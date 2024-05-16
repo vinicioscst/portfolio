@@ -5,16 +5,7 @@ const AboutMe = () => {
         Sobre mim
       </h2>
       <p className="text-sm xs:text-lg text-center md:text-left tracking-wide">
-        Designer gráfico em{' '}
-        <span className="underline underline-offset-4">
-          transição de carreira
-        </span>
-        , estou buscando minha{' '}
-        <span className="underline underline-offset-4">
-          primeira oportunidade no mercado de trabalho
-        </span>{' '}
-        como desenvolvedor web, combinando minha experiência em design para
-        criar experiências digitais envolventes.
+        Estou atualmente <span className="underline underline-offset-4">trabalhando como desenvolvedor trainee em uma multinacional</span>, onde continuo a aprimorar minhas habilidades como full stack. No momento, estou estudando <span className="font-bold">C#</span> e <span className="font-bold">.NET</span>.
       </p>
     </section>
   )
