@@ -3,13 +3,28 @@ import ProjectCard from '../ProjectCard'
 const ProjectSection = () => {
   const projects = [
     {
+      title: 'Newsletter - Front End',
+      description:
+        'A aplicação Newsletter foi elaborada em conjunto com sua API, com o intuito de fortalecer os conhecimentos de Javascript/ Typescript e aprender novas tecnologias, como Vue e o Gemini, inteligência artificial da Google e, além disso, dar início a outros conhecimentos como POO e Design Patterns, especificamente o design Singleton, utilizado nas instâncias do ORM e da ferramenta Cron (ambos da API).',
+      techs: ['Javascript', 'Vue', 'Nuxt', 'Vuetify'],
+      repository: 'https://github.com/vinicioscst/newsletter-vue',
+      deploy: 'https://newsletter-vue.vercel.app',
+    },
+    {
+      title: 'Newsletter - Back End',
+      description:
+        'A API Newsletter foi elaborada para o projeto Newsletter, com o intuito de fortalecer os conhecimentos de Javascript/ Typescript e aprender novas tecnologias, como Vue e o Gemini, inteligência artificial da Google e, além disso, dar início a outros conhecimentos como POO e Design Patterns, especificamente o design Singleton, utilizado nas instâncias do ORM e da ferramenta Cron.',
+      techs: ['Typescript', 'Express', 'Prisma', 'PostgreSQL'],
+      repository: 'https://github.com/vinicioscst/newsletter-api',
+    },
+    {
       title: 'Orange Portfólio - Front End',
       description:
         'O Orange Portifólio é uma plataforma única que reúne os melhores talentos de desenvolvimento e design em um só lugar. O  projeto foi desenvolvido durante a participação no hackathon da Orange Juice!',
       techs: ['Javascript', 'React', 'Vite', 'Material UI'],
       repository:
         'https://github.com/vinicioscst/orange-portfolio-frontend-squad24',
-      deploy: 'https://orange-portfolio-frontend-squad24.vercel.app/',
+      deploy: 'https://orange-portfolio-frontend-squad24.vercel.app',
     },
     {
       title: 'Orange Portfólio - Back End',
@@ -18,22 +33,6 @@ const ProjectSection = () => {
       techs: ['Javascript', 'Node', 'Express'],
       repository:
         'https://github.com/vinicioscst/orange-portfolio-backend-squad24',
-    },
-    {
-      title: 'Weather App',
-      description:
-        'Projeto pessoal de previsão do tempo. A aplicação possui um autocomplete ao digitar o nome da cidade e, além de trazer as informações do local escolhido, é possível escolher a exibição da temperatura entre Celsius e Fahrenheit.',
-      techs: ['Javascript', 'React', 'Next.js', 'Tailwind'],
-      repository: 'https://github.com/vinicioscst/hackathon_weather-app',
-      deploy: 'https://hackathon-weather-app.vercel.app',
-    },
-    {
-      title: 'Kenzie Hub',
-      description:
-        'A Kenzie Hub é uma aplicação do tipo CRUD onde, além de incluir um sistema de cadastro e login, é possível listar as tecnologias que os alunos mais utilizam e o nível de conhecimento em cada uma delas.',
-      techs: ['Javascript', 'React', 'Vite', 'Styled-Components'],
-      repository: 'https://github.com/vinicioscst/kenzie-kenziehub',
-      deploy: 'https://kenziehub-vinicioscst.vercel.app',
     },
   ]
 

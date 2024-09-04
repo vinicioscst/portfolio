@@ -7,10 +7,11 @@ const AboutMe = () => {
       <p className="text-sm xs:text-lg text-center md:text-left tracking-wide">
         Estou atualmente{' '}
         <span className="underline underline-offset-4">
-          trabalhando como desenvolvedor trainee em uma multinacional
+          trabalhando como desenvolvedor trainee full stack em uma multinacional
         </span>
-        , onde continuo a aprimorar minhas habilidades como full stack. No
-        momento, estou estudando <span className="font-bold">C#</span> e{' '}
+        , onde lidero um projeto na área educacional usando tecnologias da stack{' '}
+        <span className="font-bold">Javascript</span>. Além disso, estou
+        estudando <span className="font-bold">C#</span> e{' '}
         <span className="font-bold">.NET</span>.
       </p>
     </section>

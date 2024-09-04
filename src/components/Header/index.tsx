@@ -23,11 +23,6 @@ const Header = () => {
               Contato
             </li>
           </a>
-          <a href="/ViniciosCosta_Curriculo.pdf" download>
-            <li className="w-full xs:w-auto py-2 px-4 border border-primary-color/90 bg-primary-color/90 text-background-color rounded-lg hover:opacity-75 hover:-translate-y-1 cursor-pointer transition-all">
-              Baixar CV
-            </li>
-          </a>
         </nav>
       </header>
     </Container>
